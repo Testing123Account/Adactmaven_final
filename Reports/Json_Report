@@ -1,0 +1,474 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 184574700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_DefinitionAdactin.beforeHook(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "adactin-practice;login-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 149900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_DefinitionAdactin.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3825368500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is launching the browser",
+            "match": {
+              "location": "Step_DefinitionAdactin.user_is_launching_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244733399,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is entering the \"TestingAccount\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestingAccount",
+                  "offset": 22
+                }
+              ],
+              "location": "Step_DefinitionAdactin.user_is_entering_the_in_the_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97597401,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is entering the \"Password\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 22
+                }
+              ],
+              "location": "Step_DefinitionAdactin.user_is_entering_the_in_the_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1071715700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user click the login button",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_click_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 182300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_DefinitionAdactin.beforeHook(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Search hotel page",
+        "description": "",
+        "id": "adactin-practice;search-hotel-page",
+        "after": [
+          {
+            "result": {
+              "duration": 83900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_DefinitionAdactin.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user is directed to search hotel page",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_directed_to_search_hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 479668200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user is selecting the location from the location dropdown menu",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_selecting_the_location_from_the_location_dropdown_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137768100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user is selecting the  hotel from the hotel dropdown menu",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_selecting_the_hotel_from_the_hotel_dropdown_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134248000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user is selecting the type of the room from the roomtype dropdown menu",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_selecting_the_type_of_the_room_from_the_roomtype_dropdown_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138251600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user is selecting the number of rooms from the number of rooms dropdown menu",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_selecting_the_number_of_rooms_from_the_number_of_rooms_dropdown_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78573300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user is entering the CheckInDate in the Checkin Date field",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_entering_the_CheckInDate_in_the_Checkin_Date_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73072801,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user is entering the CheckOutDate in the CheckOutDate field",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_entering_the_CheckOutDate_in_the_CheckOutDate_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144466300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user is choosing the adult counting from the Adultperroom dropdown menu",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_choosing_the_adult_counting_from_the_Adultperroom_dropdown_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183361300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user is choosing the  Children counting from the Childrenperroom dropdown menu",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_choosing_the_Children_counting_from_the_Childrenperroom_dropdown_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 709019900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user is clicking the search button",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_clicking_the_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 79801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_DefinitionAdactin.beforeHook(Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Select hotel page",
+        "description": "",
+        "id": "adactin-practice;select-hotel-page",
+        "after": [
+          {
+            "result": {
+              "duration": 85900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_DefinitionAdactin.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The user is directed to the select hotel page",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_directed_to_the_select_hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97858300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user is clicking the radio button of select hotel",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_clicking_the_radio_button_of_select_hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 759383700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user is clicking the continue button",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_clicking_the_continue_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 185699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_DefinitionAdactin.beforeHook(Scenario)"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Book a hotel page",
+        "description": "",
+        "id": "adactin-practice;book-a-hotel-page",
+        "after": [
+          {
+            "result": {
+              "duration": 66300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_DefinitionAdactin.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user is directed to the book a hotel page",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_directed_to_the_book_a_hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304831500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user is entering the Firstname of the user in the firstname field",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_entering_the_Firstname_of_the_user_in_the_firstname_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102261701,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user is entering the Lastname  of the user in the Lastname field",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_entering_the_Lastname_of_the_user_in_the_Lastname_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108302600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user is enetring the BillingAddress in the Billing Address field",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_enetring_the_BillingAddress_in_the_Billing_Address_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146843500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user is entering  the Credit card no of the user in the field",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_entering_the_Credit_card_no_of_the_user_in_the_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275536800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user is choosing the \"\u003cMonth\u003e\"and the \"\u003cyear\u003e\" of the expiry date from the dropdown menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cMonth\u003e",
+                  "offset": 26
+                },
+                {
+                  "val": "\u003cyear\u003e",
+                  "offset": 43
+                }
+              ],
+              "location": "Step_DefinitionAdactin.the_user_is_choosing_the_and_the_of_the_expiry_date_from_the_dropdown_menu(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73776900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the user is entering teh \"\u003cCVVno\u003e\" in the required field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cCVVno\u003e",
+                  "offset": 26
+                }
+              ],
+              "location": "Step_DefinitionAdactin.the_user_is_entering_teh_in_the_required_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1047459000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user is clicking the Booknow button",
+            "match": {
+              "location": "Step_DefinitionAdactin.the_user_is_clicking_the_Booknow_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adactin Practice",
+    "description": "",
+    "id": "adactin-practice",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/feature/Login.feature"
+  }
+]
